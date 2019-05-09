@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.circularreveal.CircularRevealRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="177dp"
+        android:layout_height="147dp"
+        android:layout_centerInParent="true"
+        android:contentDescription="img"
+        android:src="@drawable/leonardo"
+        app:srcCompat="?attr/actionModeCopyDrawable"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="210dp" />
+</android.support.design.circularreveal.CircularRevealRelativeLayout>
